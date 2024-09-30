@@ -1,0 +1,1834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainerControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainerControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lueCompany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 11</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v23.1" name="DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lueCompany.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="lueCompany.Properties.Columns" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lueCompany.Properties.Columns1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lueCompany.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="DevExpress.Data.v23.1" name="DevExpress.Data.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="lueCompany.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueCompany.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueCompany.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lueCompany.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="lueCompany.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueCompany.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v23.1">
+    <value>Default</value>
+  </data>
+  <data name="lueCompany.Properties.Columns9" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="lueCompany.Properties.Columns10" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="lueCompany.Properties.Columns11" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lueCompany.Properties.Columns12" type="DevExpress.Utils.FormatType, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueCompany.Properties.Columns13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueCompany.Properties.Columns14" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lueCompany.Properties.Columns15" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="lueCompany.Properties.Columns16" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueCompany.Properties.Columns17" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v23.1">
+    <value>Default</value>
+  </data>
+  <data name="lueCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 22</value>
+  </data>
+  <data name="lueCompany.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;lueCompany.Name" xml:space="preserve">
+    <value>lueCompany</value>
+  </data>
+  <data name="&gt;&gt;lueCompany.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lueCompany.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;lueCompany.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkIsAllCompany.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 12</value>
+  </data>
+  <data name="chkIsAllCompany.Properties.Caption" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="chkIsAllCompany.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="chkIsAllCompany.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllCompany.Name" xml:space="preserve">
+    <value>chkIsAllCompany</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllCompany.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllCompany.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllCompany.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lueProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 11</value>
+  </data>
+  <data name="lueProject.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="lueProject.Properties.Columns" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lueProject.Properties.Columns1" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lueProject.Properties.Columns2" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lueProject.Properties.Columns3" type="DevExpress.Utils.FormatType, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueProject.Properties.Columns4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueProject.Properties.Columns5" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lueProject.Properties.Columns6" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="lueProject.Properties.Columns7" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueProject.Properties.Columns8" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v23.1">
+    <value>Default</value>
+  </data>
+  <data name="lueProject.Properties.Columns9" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="lueProject.Properties.Columns10" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="lueProject.Properties.Columns11" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lueProject.Properties.Columns12" type="DevExpress.Utils.FormatType, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueProject.Properties.Columns13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueProject.Properties.Columns14" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lueProject.Properties.Columns15" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="lueProject.Properties.Columns16" type="DevExpress.Data.ColumnSortOrder, DevExpress.Data.v23.1">
+    <value>None</value>
+  </data>
+  <data name="lueProject.Properties.Columns17" type="DevExpress.Utils.DefaultBoolean, DevExpress.Data.v23.1">
+    <value>Default</value>
+  </data>
+  <data name="lueProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="lueProject.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;lueProject.Name" xml:space="preserve">
+    <value>lueProject</value>
+  </data>
+  <data name="&gt;&gt;lueProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LookUpEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lueProject.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;lueProject.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkIsAllProject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>870, 12</value>
+  </data>
+  <data name="chkIsAllProject.Properties.Caption" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="chkIsAllProject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="chkIsAllProject.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllProject.Name" xml:space="preserve">
+    <value>chkIsAllProject</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllProject.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllProject.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;chkIsAllProject.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 15</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 15</value>
+  </data>
+  <data name="labelControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="labelControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelControl5.Text" xml:space="preserve">
+    <value>회사선택</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Name" xml:space="preserve">
+    <value>labelControl5</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 15</value>
+  </data>
+  <data name="labelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 15</value>
+  </data>
+  <data name="labelControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelControl4.Text" xml:space="preserve">
+    <value>프로젝트</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Name" xml:space="preserve">
+    <value>labelControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="labelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="labelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelControl3.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Name" xml:space="preserve">
+    <value>labelControl3</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSearch.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAALdEVYdFRpdGxlAFpvb207zwn+vAAAAWFJREFUWEfV
+        lsFNAzEQRUMDHDinApqgAqqIaAMENzrIMS0gLmkgJ06pJQWY/yJmNUpsrzIr2+LwJMuemf/XHu/uKqU0
+        lOxkT6bB88c+wlpsxE4cxekPxsyxRsxV7lIDd+JFHESagRhiyZlqLDHwID5FTqwGOeSe60QN8BSX4j/i
+        TTwJBIAxc6z5WHLPOxE1wFb6glvxKHKxwBoxPocaIQM0kz9zCt+LXKyHGG+CGuuIATrairC1tSe/hFh/
+        HJuIAa6VFeB8czE1yLH8XcQAd9sK0GS5mBrkWP4xYoAXjBWYrtMNkGP5p39pYPgRDG/C4ddw+IsIvoQV
+        MhO1nWDNi0P4VfwqfCGDreV8aTI6HRgz57cdwh+jkvgthD/HJfFv4XuiBDHhH5KS+Ltgvekv2Zz4IuYM
+        NBWHmoHm4lAy0EUccga6iUPOAEJdxCFnALyJZuJQMgAINxWHKwOjyE72I61+ARytU5CEG5+/AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="btnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1238, 5</value>
+  </data>
+  <data name="btnSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="btnSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>조  회</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Name" xml:space="preserve">
+    <value>btnSearch</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSearch.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnClose.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABF0RVh0VGl0
+        bGUAQ2xvc2U7RXhpdDsFGf+FAAABIUlEQVRYR+2VwQ7BQBRFrfwPIUQs/Ynvk2DhW3wE4QcY90pGbseb
+        dp4wNl2cRV/HnFO0HYQQ/oo5rIk5rEnj4LhehRqosw/oA34RcDNmDdTpCbiCJTjILGUPFuAiszfUWRpA
+        +RRwzRBYEZTzHNdMQDZCnSUB/Ep5VTwfSSNUHuFn7kD3eqLOkgCyAakgRlhyHm+BtRdU/gCSi3DJiTo9
+        AcSKUDrlRJ3eAJKLKJITdX4SYP3mMaDtFn2hTm9ATh4pilCnJyD3b7dmrRHqLA1ou9XablFrL6h8AXyY
+        zEEq2IG4xoqYga89iM5gDCx5RCNG4ATSNU/UWRpAGMGrsuQRRnBNVk7U6Qkgna9a8LPX8ddQZx/QBzQC
+        /oE5rIk5rEcYPADSsjauYx6lKgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1344, 5</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 38</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>닫  기</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dteTo.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dteTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 11</value>
+  </data>
+  <data name="dteTo.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="dteTo.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="dteTo.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="dteTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="dteTo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dteTo.Name" xml:space="preserve">
+    <value>dteTo</value>
+  </data>
+  <data name="&gt;&gt;dteTo.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dteTo.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;dteTo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="dteFrom.EditValue" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="dteFrom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>164, 11</value>
+  </data>
+  <data name="dteFrom.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="dteFrom.Properties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="dteFrom.Properties.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v23.1">
+    <value>Combo</value>
+  </data>
+  <data name="dteFrom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="dteFrom.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dteFrom.Name" xml:space="preserve">
+    <value>dteFrom</value>
+  </data>
+  <data name="&gt;&gt;dteFrom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dteFrom.Parent" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;dteFrom.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panelControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1456, 48</value>
+  </data>
+  <data name="panelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Name" xml:space="preserve">
+    <value>panelControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;panelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel1.Text" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Name" xml:space="preserve">
+    <value>splitContainerControl1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitGroupPanel, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="treeMapWeld.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="treeMapWeld.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="treeMapWeld.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1435, 496</value>
+  </data>
+  <data name="treeMapWeld.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;treeMapWeld.Name" xml:space="preserve">
+    <value>treeMapWeld</value>
+  </data>
+  <data name="&gt;&gt;treeMapWeld.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeMap.TreeMapControl, DevExpress.XtraTreeMap.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;treeMapWeld.Parent" xml:space="preserve">
+    <value>panelControl8</value>
+  </data>
+  <data name="&gt;&gt;treeMapWeld.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2146</value>
+  </data>
+  <data name="panelControl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 500</value>
+  </data>
+  <data name="panelControl8.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;panelControl8.Name" xml:space="preserve">
+    <value>panelControl8</value>
+  </data>
+  <data name="&gt;&gt;panelControl8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl8.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelControl11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2116</value>
+  </data>
+  <data name="panelControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 30</value>
+  </data>
+  <data name="panelControl11.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelControl11.Name" xml:space="preserve">
+    <value>panelControl11</value>
+  </data>
+  <data name="&gt;&gt;panelControl11.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl11.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioGroup1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radioGroup1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 9</value>
+  </data>
+  <data name="radioGroup1.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="radioGroup1.Properties.Items" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items1" xml:space="preserve">
+    <value>Standard Size</value>
+  </data>
+  <data name="radioGroup1.Properties.Items2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup1.Properties.Items3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items4" xml:space="preserve">
+    <value>Standard Size</value>
+  </data>
+  <data name="radioGroup1.Properties.Items5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items6" xml:space="preserve">
+    <value>Total Size</value>
+  </data>
+  <data name="radioGroup1.Properties.Items7" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup1.Properties.Items8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup1.Properties.Items9" xml:space="preserve">
+    <value>Total Size</value>
+  </data>
+  <data name="radioGroup1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 59</value>
+  </data>
+  <data name="radioGroup1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.Name" xml:space="preserve">
+    <value>radioGroup1</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.Parent" xml:space="preserve">
+    <value>panelControl13</value>
+  </data>
+  <data name="&gt;&gt;radioGroup1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="DevExpress.Drawing.v23.1" name="DevExpress.Drawing.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="resource.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont1" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>Outside Diameter</value>
+  </data>
+  <data name="resource.DXFont2" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont3" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="chartOutsideDiameter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="DevExpress.XtraCharts.v23.1" name="DevExpress.XtraCharts.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="chartOutsideDiameter.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="chartOutsideDiameter.Legend.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="chartOutsideDiameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="series1.Name" xml:space="preserve">
+    <value>Series 1</value>
+  </data>
+  <data name="series2.Name" xml:space="preserve">
+    <value>Series 2</value>
+  </data>
+  <data name="series3.Name" xml:space="preserve">
+    <value>Series 3</value>
+  </data>
+  <data name="chartOutsideDiameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1435, 496</value>
+  </data>
+  <data name="chartOutsideDiameter.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="chartTitle1.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="chartTitle1.Text" xml:space="preserve">
+    <value>Outside Diameter</value>
+  </data>
+  <data name="&gt;&gt;chartOutsideDiameter.Name" xml:space="preserve">
+    <value>chartOutsideDiameter</value>
+  </data>
+  <data name="&gt;&gt;chartOutsideDiameter.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartOutsideDiameter.Parent" xml:space="preserve">
+    <value>panelControl13</value>
+  </data>
+  <data name="&gt;&gt;chartOutsideDiameter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1616</value>
+  </data>
+  <data name="panelControl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 500</value>
+  </data>
+  <data name="panelControl13.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelControl13.Name" xml:space="preserve">
+    <value>panelControl13</value>
+  </data>
+  <data name="&gt;&gt;panelControl13.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl13.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelControl10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1586</value>
+  </data>
+  <data name="panelControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 30</value>
+  </data>
+  <data name="panelControl10.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelControl10.Name" xml:space="preserve">
+    <value>panelControl10</value>
+  </data>
+  <data name="&gt;&gt;panelControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl10.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtWeldercnt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtWeldercnt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 29</value>
+  </data>
+  <data name="txtWeldercnt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtWeldercnt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="txtWeldercnt.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;txtWeldercnt.Name" xml:space="preserve">
+    <value>txtWeldercnt</value>
+  </data>
+  <data name="&gt;&gt;txtWeldercnt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtWeldercnt.Parent" xml:space="preserve">
+    <value>panelControl9</value>
+  </data>
+  <data name="&gt;&gt;txtWeldercnt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWelderTotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblWelderTotal.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lblWelderTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 9</value>
+  </data>
+  <data name="lblWelderTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="lblWelderTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblWelderTotal.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="&gt;&gt;lblWelderTotal.Name" xml:space="preserve">
+    <value>lblWelderTotal</value>
+  </data>
+  <data name="&gt;&gt;lblWelderTotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblWelderTotal.Parent" xml:space="preserve">
+    <value>panelControl9</value>
+  </data>
+  <data name="&gt;&gt;lblWelderTotal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblWelder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblWelder.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lblWelder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 33</value>
+  </data>
+  <data name="lblWelder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
+  </data>
+  <data name="lblWelder.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="lblWelder.Text" xml:space="preserve">
+    <value>Welder</value>
+  </data>
+  <data name="&gt;&gt;lblWelder.Name" xml:space="preserve">
+    <value>lblWelder</value>
+  </data>
+  <data name="&gt;&gt;lblWelder.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblWelder.Parent" xml:space="preserve">
+    <value>panelControl9</value>
+  </data>
+  <data name="&gt;&gt;lblWelder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.DXFont4" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont5" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="chartWelder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chartWelder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="sideBySideBarSeriesLabel1.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series4.Name" xml:space="preserve">
+    <value>Series 1</value>
+  </data>
+  <data name="chartWelder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 492</value>
+  </data>
+  <data name="chartWelder.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="chartTitle2.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="chartTitle2.Text" xml:space="preserve">
+    <value>Welder Top 10</value>
+  </data>
+  <data name="&gt;&gt;chartWelder.Name" xml:space="preserve">
+    <value>chartWelder</value>
+  </data>
+  <data name="&gt;&gt;chartWelder.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartWelder.Parent" xml:space="preserve">
+    <value>panelControl9</value>
+  </data>
+  <data name="&gt;&gt;chartWelder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelControl9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelControl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>933, 2</value>
+  </data>
+  <data name="panelControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 496</value>
+  </data>
+  <data name="panelControl9.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;panelControl9.Name" xml:space="preserve">
+    <value>panelControl9</value>
+  </data>
+  <data name="&gt;&gt;panelControl9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl9.Parent" xml:space="preserve">
+    <value>panelControl6</value>
+  </data>
+  <data name="&gt;&gt;panelControl9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl6.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 12pt</value>
+  </data>
+  <data name="labelControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 171</value>
+  </data>
+  <data name="labelControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 21</value>
+  </data>
+  <data name="labelControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="labelControl6.Text" xml:space="preserve">
+    <value>ETC</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Name" xml:space="preserve">
+    <value>labelControl6</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelControl2.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 3</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 32</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chartWeldMaterialETC.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="chartWeldMaterialETC.Legend.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 7pt</value>
+  </data>
+  <data name="chartWeldMaterialETC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 205</value>
+  </data>
+  <data name="chartWeldMaterialETC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="doughnutSeriesLabel1.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>arial, 8pt</value>
+  </data>
+  <data name="series5.Name" xml:space="preserve">
+    <value>Series1</value>
+  </data>
+  <data name="chartWeldMaterialETC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 254</value>
+  </data>
+  <data name="chartWeldMaterialETC.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="chartTitle3.Alignment" type="System.Drawing.StringAlignment, System.Drawing">
+    <value>Near</value>
+  </data>
+  <data name="chartTitle3.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>arial, 10pt, style=Bold</value>
+  </data>
+  <data name="chartTitle3.Text" xml:space="preserve">
+    <value>Inspection Material</value>
+  </data>
+  <data name="&gt;&gt;chartWeldMaterialETC.Name" xml:space="preserve">
+    <value>chartWeldMaterialETC</value>
+  </data>
+  <data name="&gt;&gt;chartWeldMaterialETC.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartWeldMaterialETC.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;chartWeldMaterialETC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chartWeldingMaterial.Legend.AlignmentHorizontal" type="DevExpress.XtraCharts.LegendAlignmentHorizontal, DevExpress.XtraCharts.v23.1">
+    <value>Right</value>
+  </data>
+  <data name="chartWeldingMaterial.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v23.1">
+    <value>TopOutside</value>
+  </data>
+  <data name="chartWeldingMaterial.Legend.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>arial, 7pt</value>
+  </data>
+  <data name="chartWeldingMaterial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 69</value>
+  </data>
+  <data name="doughnutSeriesLabel2.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series6.Name" xml:space="preserve">
+    <value>Series1</value>
+  </data>
+  <data name="chartWeldingMaterial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 390</value>
+  </data>
+  <data name="chartWeldingMaterial.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="chartTitle4.Alignment" type="System.Drawing.StringAlignment, System.Drawing">
+    <value>Far</value>
+  </data>
+  <data name="chartTitle4.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>arial, 18pt</value>
+  </data>
+  <data name="chartTitle4.Text" xml:space="preserve">
+    <value>Welding Material</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingMaterial.Name" xml:space="preserve">
+    <value>chartWeldingMaterial</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingMaterial.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingMaterial.Parent" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingMaterial.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelControl7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="panelControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>931, 496</value>
+  </data>
+  <data name="panelControl7.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Name" xml:space="preserve">
+    <value>panelControl7</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.Parent" xml:space="preserve">
+    <value>panelControl6</value>
+  </data>
+  <data name="&gt;&gt;panelControl7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1086</value>
+  </data>
+  <data name="panelControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 500</value>
+  </data>
+  <data name="panelControl6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panelControl6.Name" xml:space="preserve">
+    <value>panelControl6</value>
+  </data>
+  <data name="&gt;&gt;panelControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl6.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelControl5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1056</value>
+  </data>
+  <data name="panelControl5.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="panelControl5.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="panelControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 30</value>
+  </data>
+  <data name="panelControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelControl5.Name" xml:space="preserve">
+    <value>panelControl5</value>
+  </data>
+  <data name="&gt;&gt;panelControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl5.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pictureEdit1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="pictureEdit1.EditValue" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAIXRFWHRUaXRsZQBEb2N1bWVu
+        dGF0aW9uO0hlbHA7UXVlc3Rpb27gk8yYAAABEElEQVQ4T5XTsWoCQRDGccEiJiSFQvo0KVLkBWzS2Vnm
+        haz1HQIhZXrfwCZBEAWRNDFgLdhodX7/ZVbGyV4gxQ/uZmaH29m9Rn8wjnoykolsDc/EyJ3V+5c7GcpO
+        qhrkqKH2rAGBVyktKqE2NckN6OoLZtKVK2nJk8zF17AmNWBf8bPfpCkP0qmqirp78TWs6ZFgOD6Bqazs
+        +ZMG1uRgsWxEkAn7YPRiix9DHBMSHFNMZO9yIbfCXGJ++1cD9ngtHVlaLEoN6rawtk9/DnEvbaE0xOxD
+        FiHmpSGWjhFfcik38mMx73SMiBcJ39IWZrCxmHe6SKi7ynuJZ49fVzk3oWtpOxk5atJi+AbZP37nceMI
+        Fos9Sp49BaMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureEdit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1244, 27</value>
+  </data>
+  <data name="pictureEdit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 24</value>
+  </data>
+  <data name="pictureEdit1.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Name" xml:space="preserve">
+    <value>pictureEdit1</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;pictureEdit1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblNOKTotal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblNOKTotal.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lblNOKTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1333, 8</value>
+  </data>
+  <data name="lblNOKTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 15</value>
+  </data>
+  <data name="lblNOKTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblNOKTotal.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="&gt;&gt;lblNOKTotal.Name" xml:space="preserve">
+    <value>lblNOKTotal</value>
+  </data>
+  <data name="&gt;&gt;lblNOKTotal.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblNOKTotal.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;lblNOKTotal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblEF.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lblEF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1353, 31</value>
+  </data>
+  <data name="lblEF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 15</value>
+  </data>
+  <data name="lblEF.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblEF.Text" xml:space="preserve">
+    <value>EF</value>
+  </data>
+  <data name="&gt;&gt;lblEF.Name" xml:space="preserve">
+    <value>lblEF</value>
+  </data>
+  <data name="&gt;&gt;lblEF.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblEF.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;lblEF.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtEFcnt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtEFcnt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1374, 28</value>
+  </data>
+  <data name="txtEFcnt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtEFcnt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="txtEFcnt.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtEFcnt.Name" xml:space="preserve">
+    <value>txtEFcnt</value>
+  </data>
+  <data name="&gt;&gt;txtEFcnt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtEFcnt.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;txtEFcnt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblIR.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblIR.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="lblIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 31</value>
+  </data>
+  <data name="lblIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="lblIR.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblIR.Text" xml:space="preserve">
+    <value>IR</value>
+  </data>
+  <data name="&gt;&gt;lblIR.Name" xml:space="preserve">
+    <value>lblIR</value>
+  </data>
+  <data name="&gt;&gt;lblIR.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lblIR.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;lblIR.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtIRcnt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtIRcnt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1288, 28</value>
+  </data>
+  <data name="txtIRcnt.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="txtIRcnt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="txtIRcnt.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtIRcnt.Name" xml:space="preserve">
+    <value>txtIRcnt</value>
+  </data>
+  <data name="&gt;&gt;txtIRcnt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtIRcnt.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;txtIRcnt.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.DXFont6" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 7.5pt</value>
+  </data>
+  <data name="resource.DXFont7" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text2" xml:space="preserve">
+    <value>IR</value>
+  </data>
+  <data name="resource.DXFont8" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>Arial, 10pt</value>
+  </data>
+  <data name="resource.Text3" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="secondaryAxisX1.Alignment" type="DevExpress.XtraCharts.AxisAlignment, DevExpress.XtraCharts.v23.1">
+    <value>Near</value>
+  </data>
+  <data name="resource.DXFont9" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 7.5pt</value>
+  </data>
+  <data name="resource.DXFont10" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text4" xml:space="preserve">
+    <value>EF</value>
+  </data>
+  <data name="secondaryAxisY1.Alignment" type="DevExpress.XtraCharts.AxisAlignment, DevExpress.XtraCharts.v23.1">
+    <value>Near</value>
+  </data>
+  <data name="resource.DXFont11" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont12" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 12pt</value>
+  </data>
+  <data name="chartWeldingNOKReason.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chartWeldingNOKReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 2</value>
+  </data>
+  <data name="chartWeldingNOKReason.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 10</value>
+  </data>
+  <data name="sideBySideBarSeriesLabel2.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series7.Name" xml:space="preserve">
+    <value>Series 1</value>
+  </data>
+  <data name="sideBySideBarSeriesLabel3.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series8.Name" xml:space="preserve">
+    <value>Series 2</value>
+  </data>
+  <data name="chartWeldingNOKReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>866, 522</value>
+  </data>
+  <data name="chartWeldingNOKReason.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="chartTitle5.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="chartTitle5.Text" xml:space="preserve">
+    <value>NOK Reason</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingNOKReason.Name" xml:space="preserve">
+    <value>chartWeldingNOKReason</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingNOKReason.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingNOKReason.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;chartWeldingNOKReason.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chartWeldOKNOK.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="chartWeldOKNOK.Legend.AlignmentVertical" type="DevExpress.XtraCharts.LegendAlignmentVertical, DevExpress.XtraCharts.v23.1">
+    <value>Center</value>
+  </data>
+  <data name="chartWeldOKNOK.Legend.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕m 7pt, 8.25pt</value>
+  </data>
+  <data name="chartWeldOKNOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="chartWeldOKNOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 10</value>
+  </data>
+  <data name="pieSeriesLabel1.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series9.Name" xml:space="preserve">
+    <value>Series1</value>
+  </data>
+  <data name="chartWeldOKNOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 522</value>
+  </data>
+  <data name="chartWeldOKNOK.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="chartTitle6.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="chartTitle6.Text" xml:space="preserve">
+    <value>Weld OK, NOK</value>
+  </data>
+  <data name="&gt;&gt;chartWeldOKNOK.Name" xml:space="preserve">
+    <value>chartWeldOKNOK</value>
+  </data>
+  <data name="&gt;&gt;chartWeldOKNOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartWeldOKNOK.Parent" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;chartWeldOKNOK.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelControl4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 530</value>
+  </data>
+  <data name="panelControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 526</value>
+  </data>
+  <data name="panelControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelControl4.Name" xml:space="preserve">
+    <value>panelControl4</value>
+  </data>
+  <data name="&gt;&gt;panelControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl4.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panelControl3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 500</value>
+  </data>
+  <data name="panelControl3.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="panelControl3.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="panelControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 30</value>
+  </data>
+  <data name="panelControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Name" xml:space="preserve">
+    <value>panelControl3</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="radioGroup2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="radioGroup2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1205, 11</value>
+  </data>
+  <data name="radioGroup2.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="radioGroup2.Properties.Items" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items1" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="radioGroup2.Properties.Items2" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup2.Properties.Items3" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items4" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="radioGroup2.Properties.Items5" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items6" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="radioGroup2.Properties.Items7" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup2.Properties.Items8" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items9" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="radioGroup2.Properties.Items10" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items11" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="radioGroup2.Properties.Items12" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup2.Properties.Items13" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items14" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="radioGroup2.Properties.Items15" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items16" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="radioGroup2.Properties.Items17" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioGroup2.Properties.Items18" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioGroup2.Properties.Items19" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="radioGroup2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 33</value>
+  </data>
+  <data name="radioGroup2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;radioGroup2.Name" xml:space="preserve">
+    <value>radioGroup2</value>
+  </data>
+  <data name="&gt;&gt;radioGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.RadioGroup, DevExpress.XtraEditors.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;radioGroup2.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;radioGroup2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.DXFont13" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont14" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text5" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="resource.DXFont15" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="resource.DXFont16" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="resource.Text6" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="chartTotalWeldingPoint.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chartTotalWeldingPoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="chartTotalWeldingPoint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 10</value>
+  </data>
+  <data name="pointSeriesLabel1.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="series10.Name" xml:space="preserve">
+    <value>Series 1</value>
+  </data>
+  <data name="sideBySideBarSeriesLabel4.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 8pt</value>
+  </data>
+  <data name="chartTotalWeldingPoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1435, 496</value>
+  </data>
+  <data name="chartTotalWeldingPoint.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="chartTitle7.DXFont" type="DevExpress.Drawing.DXFont, DevExpress.Drawing.v23.1">
+    <value>맑은 고딕, 18pt</value>
+  </data>
+  <data name="chartTitle7.Text" xml:space="preserve">
+    <value>Total Welding Point</value>
+  </data>
+  <data name="&gt;&gt;chartTotalWeldingPoint.Name" xml:space="preserve">
+    <value>chartTotalWeldingPoint</value>
+  </data>
+  <data name="&gt;&gt;chartTotalWeldingPoint.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartTotalWeldingPoint.Parent" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;chartTotalWeldingPoint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1439, 500</value>
+  </data>
+  <data name="panelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Name" xml:space="preserve">
+    <value>panelControl2</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.PanelControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.Parent" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;panelControl2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="xtraScrollableControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="xtraScrollableControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="xtraScrollableControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1456, 737</value>
+  </data>
+  <data name="xtraScrollableControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Name" xml:space="preserve">
+    <value>xtraScrollableControl1</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraScrollableControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.Parent" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;xtraScrollableControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainerControl1.Panel2.Text" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Name" xml:space="preserve">
+    <value>splitContainerControl1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitGroupPanel, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainerControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1456, 795</value>
+  </data>
+  <data name="splitContainerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Name" xml:space="preserve">
+    <value>splitContainerControl1</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitContainerControl, DevExpress.Utils.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainerControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1456, 795</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>융착통계</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormDashboard2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>SWSAnalyzer.BaseForm, SWSAnalyzer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="count_UploadHistory" xml:space="preserve">
+    <value>≡ Result - {0:n0}</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="msg_CancleUpload" xml:space="preserve">
+    <value>Cancel upload</value>
+  </data>
+  <data name="msg_ChangeError" xml:space="preserve">
+    <value>Your password could not be changed because error occurred</value>
+  </data>
+  <data name="msg_ChangePW" xml:space="preserve">
+    <value>Your password has been successfully changed</value>
+  </data>
+  <data name="msg_ChangePWError" xml:space="preserve">
+    <value>Check the password to change</value>
+  </data>
+  <data name="msg_ChangePWNull" xml:space="preserve">
+    <value>Enter the password to change</value>
+  </data>
+  <data name="msg_CreateData" xml:space="preserve">
+    <value>Excel checking…</value>
+  </data>
+  <data name="msg_CreateDataError" xml:space="preserve">
+    <value>Failure to create Excel</value>
+  </data>
+  <data name="msg_CRUDError" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="msg_DateError" xml:space="preserve">
+    <value>1900-01-01 {0} data exists</value>
+  </data>
+  <data name="msg_EmptyFile" xml:space="preserve">
+    <value>{0} has no data</value>
+  </data>
+  <data name="msg_EmptyPW" xml:space="preserve">
+    <value>Enter the password</value>
+  </data>
+  <data name="msg_ExcelError" xml:space="preserve">
+    <value>Close the excel and try again</value>
+  </data>
+  <data name="msg_ExistData1" xml:space="preserve">
+    <value>The data is already exist {0:n0}</value>
+  </data>
+  <data name="msg_ExistData2" xml:space="preserve">
+    <value>There is {0:n0} data that already exists
+
+Do you want upload only new data?</value>
+  </data>
+  <data name="msg_FileError" xml:space="preserve">
+    <value>The Excel is not in the correct format</value>
+  </data>
+  <data name="msg_FileFormatError" xml:space="preserve">
+    <value>{0} is not in the correct format.</value>
+  </data>
+  <data name="msg_FileLoad1" xml:space="preserve">
+    <value>Load [{0}] completed</value>
+  </data>
+  <data name="msg_FileLoad2" xml:space="preserve">
+    <value>Start uploading with a Start Upload button</value>
+  </data>
+  <data name="msg_FileLoadError" xml:space="preserve">
+    <value>The csv file you selected could not be loaded</value>
+  </data>
+  <data name="msg_FirstLogin" xml:space="preserve">
+    <value>change your password before using.</value>
+  </data>
+  <data name="msg_FolderError" xml:space="preserve">
+    <value>[{0}:{1}] Folder error: {2}</value>
+  </data>
+  <data name="msg_IDError" xml:space="preserve">
+    <value>Please check the ID</value>
+  </data>
+  <data name="msg_isExistData" xml:space="preserve">
+    <value>Checking for data duplication</value>
+  </data>
+  <data name="msg_LoadBeadFile" xml:space="preserve">
+    <value>Do you want load the [{0}] inspection data folder?</value>
+  </data>
+  <data name="msg_LoadFile" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="msg_LoadFileError" xml:space="preserve">
+    <value>Faliure to read Excel for welding data</value>
+  </data>
+  <data name="msg_LoginError1" xml:space="preserve">
+    <value>Unable to connect to server</value>
+  </data>
+  <data name="msg_LoginError2" xml:space="preserve">
+    <value>Unable to connect to database</value>
+  </data>
+  <data name="msg_NowPWError" xml:space="preserve">
+    <value>Check the current password</value>
+  </data>
+  <data name="msg_NowPWNull" xml:space="preserve">
+    <value>Enter the current password</value>
+  </data>
+  <data name="msg_NullBeadFile" xml:space="preserve">
+    <value>Select the folder with the csv file</value>
+  </data>
+  <data name="msg_NullWeldFile" xml:space="preserve">
+    <value>Select the weliding data folder to upload</value>
+  </data>
+  <data name="msg_PWError" xml:space="preserve">
+    <value>please check the password</value>
+  </data>
+  <data name="msg_title_ChangePWError" xml:space="preserve">
+    <value>Password to change</value>
+  </data>
+  <data name="msg_title_ChangePWNull" xml:space="preserve">
+    <value>Password to change</value>
+  </data>
+  <data name="msg_title_Exist" xml:space="preserve">
+    <value>Already exist</value>
+  </data>
+  <data name="msg_title_ExistDataError" xml:space="preserve">
+    <value>Unable to check for duplicates</value>
+  </data>
+  <data name="msg_title_NowPWNull" xml:space="preserve">
+    <value>Current password</value>
+  </data>
+  <data name="msg_title_UploadError" xml:space="preserve">
+    <value>Inspection data</value>
+  </data>
+  <data name="msg_UploadData" xml:space="preserve">
+    <value>Do you want start uploading data?</value>
+  </data>
+  <data name="msg_UploadError" xml:space="preserve">
+    <value>The selected file cannot be uploaded. Check the file. {0}</value>
+  </data>
+  <data name="msg_UploadFail" xml:space="preserve">
+    <value>[{0}:{1}] Upload failure</value>
+  </data>
+  <data name="msg_Uploading" xml:space="preserve">
+    <value>Please waiting for upload the data</value>
+  </data>
+  <data name="msg_UploadSuccess" xml:space="preserve">
+    <value>[{0}:{1}] Upload success</value>
+  </data>
+</root>

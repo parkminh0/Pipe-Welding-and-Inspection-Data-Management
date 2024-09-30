@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnModify" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="btnNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btn_viewall" xml:space="preserve">
+    <value>View all</value>
+  </data>
+  <data name="btn_viewsummary" xml:space="preserve">
+    <value>View summary</value>
+  </data>
+  <data name="count_BeadDetail" xml:space="preserve">
+    <value>≡ Detail - {0:n0}</value>
+  </data>
+  <data name="count_BeadMaster" xml:space="preserve">
+    <value>≡ Inspection data list - {0:n0}</value>
+  </data>
+  <data name="count_BeadWeld" xml:space="preserve">
+    <value>≡ Inspection+Welding data list - {0:n0}</value>
+  </data>
+  <data name="count_Comp" xml:space="preserve">
+    <value>≡ Company list - {0:n0}</value>
+  </data>
+  <data name="count_General" xml:space="preserve">
+    <value>≡ Inspection data - {0:n0}</value>
+  </data>
+  <data name="count_Project" xml:space="preserve">
+    <value>≡ {0} Project list - {1:n0}</value>
+  </data>
+  <data name="count_User" xml:space="preserve">
+    <value>≡ {0} User list - {1:n0}</value>
+  </data>
+  <data name="count_WeldMaster" xml:space="preserve">
+    <value>≡ Welding data list - {0:n0}</value>
+  </data>
+  <data name="excel_BeadDetail" xml:space="preserve">
+    <value>Inspection detail</value>
+  </data>
+  <data name="excel_BeadMaster" xml:space="preserve">
+    <value>Inspeciton list</value>
+  </data>
+  <data name="excel_BeadWeld" xml:space="preserve">
+    <value>Inspection+Welding data list</value>
+  </data>
+  <data name="excel_PopBeadMaster" xml:space="preserve">
+    <value>Inspection master_{0}</value>
+  </data>
+  <data name="excel_PopWeldMaster" xml:space="preserve">
+    <value>Welding master_{0}</value>
+  </data>
+  <data name="excel_ProjRealation" xml:space="preserve">
+    <value>Project chart</value>
+  </data>
+  <data name="excel_WeldMaster" xml:space="preserve">
+    <value>Welding data list</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="img_Dashboard2" xml:space="preserve">
+    <value>Properties.Resources.Dashboard2EN</value>
+  </data>
+  <data name="msg_AdminNull" xml:space="preserve">
+    <value>Choose the Higher admin</value>
+  </data>
+  <data name="msg_AuthExist1" xml:space="preserve">
+    <value>Admin authority already exist within the {0}</value>
+  </data>
+  <data name="msg_AuthExist2" xml:space="preserve">
+    <value>{1} authority already exist within the {0}</value>
+  </data>
+  <data name="msg_AuthLevelNull" xml:space="preserve">
+    <value>Choose the authority</value>
+  </data>
+  <data name="msg_BeadSearchAll" xml:space="preserve">
+    <value>Enter the SerialNo or Material info</value>
+  </data>
+  <data name="msg_BeadWeldSearchAll" xml:space="preserve">
+    <value>Enter the Machine SerialNo or Material or Serial info</value>
+  </data>
+  <data name="msg_ChangeError" xml:space="preserve">
+    <value>Your password could not be changed because error occurred</value>
+  </data>
+  <data name="msg_ChangePW" xml:space="preserve">
+    <value>Your password has been successfully changed</value>
+  </data>
+  <data name="msg_ChangePWError" xml:space="preserve">
+    <value>Check the password to change</value>
+  </data>
+  <data name="msg_ChangePWNull" xml:space="preserve">
+    <value>Enter the password to change</value>
+  </data>
+  <data name="msg_ChangeSkin" xml:space="preserve">
+    <value>When changing skin, a program restart is required.
+
+Do you want to restart?</value>
+  </data>
+  <data name="msg_CompanyNull" xml:space="preserve">
+    <value>Choose the company</value>
+  </data>
+  <data name="msg_CompExist" xml:space="preserve">
+    <value>Already exist company name</value>
+  </data>
+  <data name="msg_CompNull" xml:space="preserve">
+    <value>Enter the company name</value>
+  </data>
+  <data name="msg_CRUDError" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="msg_Del" xml:space="preserve">
+    <value>Do you want to delete it?</value>
+  </data>
+  <data name="msg_EmptyPW" xml:space="preserve">
+    <value>Enter the password</value>
+  </data>
+  <data name="msg_ExcelError" xml:space="preserve">
+    <value>Close the excel and try again</value>
+  </data>
+  <data name="msg_ExpireNull" xml:space="preserve">
+    <value>Enter expiration date</value>
+  </data>
+  <data name="msg_FirstLogin" xml:space="preserve">
+    <value>change your password before using.</value>
+  </data>
+  <data name="msg_IDError" xml:space="preserve">
+    <value>Please check the ID</value>
+  </data>
+  <data name="msg_LoginError1" xml:space="preserve">
+    <value>Unable to connect to server</value>
+  </data>
+  <data name="msg_LoginError2" xml:space="preserve">
+    <value>Unable to connect to database</value>
+  </data>
+  <data name="msg_ManagerNull" xml:space="preserve">
+    <value>Choose the higher manager</value>
+  </data>
+  <data name="msg_MasterDel1" xml:space="preserve">
+    <value>Are you sure you want to delete {0}(s) data? (unrecoverable)</value>
+  </data>
+  <data name="msg_MasterDel2" xml:space="preserve">
+    <value>Deleting data…</value>
+  </data>
+  <data name="msg_MasterDel3" xml:space="preserve">
+    <value>Data deleting is success</value>
+  </data>
+  <data name="msg_MasterDelError" xml:space="preserve">
+    <value>Error occurred while deleting data</value>
+  </data>
+  <data name="msg_MasterTransfer1" xml:space="preserve">
+    <value>Are you sure you want to change [{0}]'s data({1}) to the [{2}]'s [{3}]?</value>
+  </data>
+  <data name="msg_MasterTransfer2" xml:space="preserve">
+    <value>Changing data...</value>
+  </data>
+  <data name="msg_MasterTransfer3" xml:space="preserve">
+    <value>Data changing is success</value>
+  </data>
+  <data name="msg_MasterTransferError" xml:space="preserve">
+    <value>Error occurred while changing data</value>
+  </data>
+  <data name="msg_NowPWError" xml:space="preserve">
+    <value>Check the current password</value>
+  </data>
+  <data name="msg_NowPWNull" xml:space="preserve">
+    <value>Enter the current password</value>
+  </data>
+  <data name="msg_PopDataEmpty" xml:space="preserve">
+    <value>There is no data. Check the data</value>
+  </data>
+  <data name="msg_ProjectNull" xml:space="preserve">
+    <value>Choose the project</value>
+  </data>
+  <data name="msg_ProjExist" xml:space="preserve">
+    <value>Already exist project name</value>
+  </data>
+  <data name="msg_ProjNull" xml:space="preserve">
+    <value>Enter the project name</value>
+  </data>
+  <data name="msg_PWError" xml:space="preserve">
+    <value>please check the password</value>
+  </data>
+  <data name="msg_title_AdminNull" xml:space="preserve">
+    <value>Higher admin</value>
+  </data>
+  <data name="msg_title_AuthExist" xml:space="preserve">
+    <value>Already existed authority</value>
+  </data>
+  <data name="msg_title_AuthLevelNull" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="msg_title_ChangePWError" xml:space="preserve">
+    <value>Password to change</value>
+  </data>
+  <data name="msg_title_ChangePWNull" xml:space="preserve">
+    <value>Password to change</value>
+  </data>
+  <data name="msg_title_CompanyNull" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="msg_title_CompNull" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="msg_title_Del" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="msg_title_Exist" xml:space="preserve">
+    <value>Already exist</value>
+  </data>
+  <data name="msg_title_ExpireNull" xml:space="preserve">
+    <value>Expiration date</value>
+  </data>
+  <data name="msg_title_ManagerNull" xml:space="preserve">
+    <value>Higher manager</value>
+  </data>
+  <data name="msg_title_MasterTransfer" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="msg_title_NowPWNull" xml:space="preserve">
+    <value>Current password</value>
+  </data>
+  <data name="msg_title_PopDataEmpty" xml:space="preserve">
+    <value>No data</value>
+  </data>
+  <data name="msg_title_ProjectNull" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="msg_title_ProjNull" xml:space="preserve">
+    <value>Project name</value>
+  </data>
+  <data name="msg_title_SearchAll" xml:space="preserve">
+    <value>Search criteria</value>
+  </data>
+  <data name="msg_title_UserIDNull" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="msg_UserDelError" xml:space="preserve">
+    <value>Delete the lower account and try again</value>
+  </data>
+  <data name="msg_UserIDNull" xml:space="preserve">
+    <value>Enter the user ID</value>
+  </data>
+  <data name="msg_UserNameNull" xml:space="preserve">
+    <value>Enter the user name</value>
+  </data>
+  <data name="msg_UserPWNull" xml:space="preserve">
+    <value>Enter the password</value>
+  </data>
+  <data name="msg_WeldSearchAll" xml:space="preserve">
+    <value>Enter the SerialNo or Material or Diameter info</value>
+  </data>
+  <data name="title_CompDel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="title_CompMod" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="title_CompNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="title_ProjDel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="title_ProjMod" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="title_ProjNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="title_UserDel" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="title_UserMod" xml:space="preserve">
+    <value>Modification</value>
+  </data>
+  <data name="title_UserNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+</root>

@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91DB86D3-71F1-4920-86F3-52ACB6298DBA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SWSAnalyzer</RootNamespace>
+    <AssemblyName>SWSAnalyzer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Graphicloads-Seo-Services-Responsive-design.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.BonusSkins.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Images.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.Desktop.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.TreeMap.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v23.1.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v23.1.Wizard, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v23.1">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v23.1.Core, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v23.1.Win, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v23.1.Export, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v23.1.Extensions, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v23.1.UI, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v23.1, Version=23.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Excel, Version=2.1.2.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Utility\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Utility\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPopDashboard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPopDashboard2.Designer.cs">
+      <DependentUpon>FormPopDashboard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LangResx\Main.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopProjectRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopProjectRelation.Designer.cs">
+      <DependentUpon>FormPopProjectRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormProjectRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormProjectRelation.Designer.cs">
+      <DependentUpon>FormProjectRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopProject.Designer.cs">
+      <DependentUpon>FormPopProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopUserAuth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopUserAuth.Designer.cs">
+      <DependentUpon>FormPopUserAuth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDILogic\InspectionMachine.cs" />
+    <Compile Include="MDILogic\CellDrawHelper.cs" />
+    <Compile Include="CustomControl\CustomGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\CustomGridLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Database\DBMSSQL.cs" />
+    <Compile Include="MDIForm\FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormDashboard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormDashboard2.Designer.cs">
+      <DependentUpon>FormDashboard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormDashboard3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormDashboard3.Designer.cs">
+      <DependentUpon>FormDashboard3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormChangePasswd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormChangePasswd.Designer.cs">
+      <DependentUpon>FormChangePasswd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopUsers.Designer.cs">
+      <DependentUpon>FormPopUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormUsers.Designer.cs">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormProject.Designer.cs">
+      <DependentUpon>FormProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormCompany.Designer.cs">
+      <DependentUpon>FormCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopCompany.Designer.cs">
+      <DependentUpon>FormPopCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormGeneralChart1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormGeneralChart1.Designer.cs">
+      <DependentUpon>FormGeneralChart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPivotResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPivotResult.Designer.cs">
+      <DependentUpon>FormPivotResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadDetailList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadDetailList.Designer.cs">
+      <DependentUpon>FormBeadDetailList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopBeadMastercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopBeadMastercs.Designer.cs">
+      <DependentUpon>FormPopBeadMastercs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormPopWeldMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormPopWeldMaster.Designer.cs">
+      <DependentUpon>FormPopWeldMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadAndWeldList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadAndWeldList.Designer.cs">
+      <DependentUpon>FormBeadAndWeldList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadMasterManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormBeadMasterManage.Designer.cs">
+      <DependentUpon>FormBeadMasterManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm\FormWeldMasterManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm\FormWeldMasterManage.Designer.cs">
+      <DependentUpon>FormWeldMasterManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogicManage\ExcelLoading.cs" />
+    <Compile Include="LogicManage\CommonLogic.cs" />
+    <Compile Include="Config\Constance.cs" />
+    <Compile Include="LogicManage\LogicManager.cs" />
+    <Compile Include="LogicManage\ReportLogic.cs" />
+    <Compile Include="MDILogic\ProductInfo.cs" />
+    <Compile Include="MDILogic\SunBurstPosition.cs" />
+    <Compile Include="Splash\SplashScreen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\SplashScreen2.Designer.cs">
+      <DependentUpon>SplashScreen2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\NetUtil.cs" />
+    <Compile Include="Utility\AES.cs" />
+    <Compile Include="BaseFrm\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseFrm\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\DBManager.cs" />
+    <Compile Include="LogicManage\ExceptionManager.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config\OptionInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Splash\SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash\WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseFrm\WarningMSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseFrm\WarningMSG.Designer.cs">
+      <DependentUpon>WarningMSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogicManage\WBLogic.cs" />
+    <Compile Include="Report\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\YmDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MDILogic\WeldingMachine.cs" />
+    <EmbeddedResource Include="BaseFrm\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPopDashboard2.resx">
+      <DependentUpon>FormPopDashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LangResx\Main.en.resx" />
+    <EmbeddedResource Include="LangResx\Main.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Main.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadAndWeldList.en.resx">
+      <DependentUpon>FormBeadAndWeldList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadDetailList.en.resx">
+      <DependentUpon>FormBeadDetailList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadMasterManage.en.resx">
+      <DependentUpon>FormBeadMasterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormChangePasswd.en.resx">
+      <DependentUpon>FormChangePasswd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard.en.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard2.en.resx">
+      <DependentUpon>FormDashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard3.en.resx">
+      <DependentUpon>FormDashboard3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormGeneralChart1.en.resx">
+      <DependentUpon>FormGeneralChart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPivotResult.en.resx">
+      <DependentUpon>FormPivotResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopBeadMastercs.en.resx">
+      <DependentUpon>FormPopBeadMastercs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopProjectRelation.en.resx">
+      <DependentUpon>FormPopProjectRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopProjectRelation.resx">
+      <DependentUpon>FormPopProjectRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopUserAuth.en.resx">
+      <DependentUpon>FormPopUserAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopUsers.en.resx">
+      <DependentUpon>FormPopUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopWeldMaster.en.resx">
+      <DependentUpon>FormPopWeldMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormProjectRelation.en.resx">
+      <DependentUpon>FormProjectRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormProjectRelation.resx">
+      <DependentUpon>FormProjectRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormCompany.en.resx">
+      <DependentUpon>FormCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopCompany.en.resx">
+      <DependentUpon>FormPopCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopProject.en.resx">
+      <DependentUpon>FormPopProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopProject.resx">
+      <DependentUpon>FormPopProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopUserAuth.resx">
+      <DependentUpon>FormPopUserAuth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard2.resx">
+      <DependentUpon>FormDashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormDashboard3.resx">
+      <DependentUpon>FormDashboard3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormChangePasswd.resx">
+      <DependentUpon>FormChangePasswd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopUsers.resx">
+      <DependentUpon>FormPopUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormProject.en.resx">
+      <DependentUpon>FormProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormUsers.en.resx">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormUsers.resx">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormProject.resx">
+      <DependentUpon>FormProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormCompany.resx">
+      <DependentUpon>FormCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopCompany.resx">
+      <DependentUpon>FormPopCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormGeneralChart1.resx">
+      <DependentUpon>FormGeneralChart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPivotResult.resx">
+      <DependentUpon>FormPivotResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadDetailList.resx">
+      <DependentUpon>FormBeadDetailList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopBeadMastercs.resx">
+      <DependentUpon>FormPopBeadMastercs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormPopWeldMaster.resx">
+      <DependentUpon>FormPopWeldMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadAndWeldList.resx">
+      <DependentUpon>FormBeadAndWeldList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormBeadMasterManage.resx">
+      <DependentUpon>FormBeadMasterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormWeldMasterManage.en.resx">
+      <DependentUpon>FormWeldMasterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm\FormWeldMasterManage.resx">
+      <DependentUpon>FormWeldMasterManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Splash\SplashScreen2.en.resx">
+      <DependentUpon>SplashScreen2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\SplashScreen2.resx">
+      <DependentUpon>SplashScreen2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseFrm\WarningMSG.resx">
+      <DependentUpon>WarningMSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControl\YmDateEdit.resx">
+      <DependentUpon>YmDateEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\ProductInfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MDIForm\Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transmit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket_go_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="design_32x32.ico" />
+    <None Include="Resources\Keychain.png" />
+    <Content Include="FullFormBeadAndWeldList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Graphicloads-Seo-Services-Responsive-design.ico" />
+    <None Include="Resources\Login.PNG" />
+    <None Include="Resources\Dashboard2KR.png" />
+    <None Include="Resources\Dashboard2EN.png" />
+    <Content Include="Resources\Next_16x16.png" />
+    <Content Include="Resources\Prev_16x16.png" />
+    <None Include="Resources\UploaderWeld.png" />
+    <Content Include="SummaryFormBeadAndWeldList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Utility\Danieledesantis-Playstation-Flat-Playstation-circle.ico" />
+    <Content Include="Utility\Excel.dll" />
+    <Content Include="Utility\Graphicloads-Seo-Services-Responsive-design.ico" />
+    <Content Include="Utility\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Utility\SecureApp.dll" />
+    <Content Include="Utility\System.Data.SQLite.dll" />
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

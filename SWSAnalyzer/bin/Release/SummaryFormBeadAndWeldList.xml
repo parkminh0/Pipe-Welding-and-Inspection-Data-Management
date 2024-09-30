@@ -1,0 +1,1152 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@1,Width=1@1,Height=1</property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="BestFitMaxRowCount">100</property>
+    <property name="ColumnAutoWidth">false</property>
+    <property name="ShowAutoFilterRow">true</property>
+    <property name="EnableAppearanceEvenRow">true</property>
+  </property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="184">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Name">gridColumn1</property>
+      <property name="Width">77</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Name">gridColumn2</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Name">gridColumn3</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">92</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">gridColumn4</property>
+      <property name="Width">61</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">gridColumn5</property>
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">81</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="Name">gridColumn6</property>
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="Width">94</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Name">gridColumn7</property>
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="Width">103</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Name">gridColumn8</property>
+      <property name="Width">104</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">gridColumn9</property>
+      <property name="Width">84</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Name">gridColumn10</property>
+      <property name="Width">110</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Name">gridColumn11</property>
+      <property name="Width">66</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">gridColumn12</property>
+      <property name="Width">41</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Name">gridColumn13</property>
+      <property name="Width">97</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">gridColumn14</property>
+      <property name="Width">46</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Name">gridColumn15</property>
+      <property name="Width">76</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Name">gridColumn16</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">gridColumn17</property>
+      <property name="Width">51</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Name">gridColumn18</property>
+      <property name="Width">83</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">gridColumn19</property>
+      <property name="Width">76</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Name">gridColumn20</property>
+      <property name="Width">58</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Name">gridColumn21</property>
+      <property name="Width">95</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Name">gridColumn22</property>
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">114</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Name">gridColumn23</property>
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="Width">89</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Name">gridColumn24</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="Width">92</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item25" isnull="true" iskey="true">
+      <property name="Name">gridColumn25</property>
+      <property name="Width">89</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item26" isnull="true" iskey="true">
+      <property name="Name">gridColumn26</property>
+      <property name="Width">60</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item27" isnull="true" iskey="true">
+      <property name="Name">gridColumn27</property>
+      <property name="Width">60</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item28" isnull="true" iskey="true">
+      <property name="Name">gridColumn28</property>
+      <property name="Width">50</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item29" isnull="true" iskey="true">
+      <property name="Name">gridColumn29</property>
+      <property name="Width">73</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item30" isnull="true" iskey="true">
+      <property name="Name">gridColumn30</property>
+      <property name="Width">118</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item31" isnull="true" iskey="true">
+      <property name="Name">gridColumn31</property>
+      <property name="Width">76</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item32" isnull="true" iskey="true">
+      <property name="Name">gridColumn32</property>
+      <property name="Width">68</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item33" isnull="true" iskey="true">
+      <property name="Name">gridColumn33</property>
+      <property name="Width">81</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item34" isnull="true" iskey="true">
+      <property name="Name">gridColumn34</property>
+      <property name="Width">79</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item35" isnull="true" iskey="true">
+      <property name="Name">gridColumn35</property>
+      <property name="Width">76</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item36" isnull="true" iskey="true">
+      <property name="Name">gridColumn36</property>
+      <property name="Width">120</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item37" isnull="true" iskey="true">
+      <property name="Name">gridColumn37</property>
+      <property name="Width">86</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item38" isnull="true" iskey="true">
+      <property name="Name">gridColumn38</property>
+      <property name="Width">81</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item39" isnull="true" iskey="true">
+      <property name="Name">gridColumn39</property>
+      <property name="Width">77</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item40" isnull="true" iskey="true">
+      <property name="Name">gridColumn40</property>
+      <property name="Width">109</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item41" isnull="true" iskey="true">
+      <property name="Name">gridColumn41</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item42" isnull="true" iskey="true">
+      <property name="Name">gridColumn42</property>
+      <property name="Width">43</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item43" isnull="true" iskey="true">
+      <property name="Name">gridColumn43</property>
+      <property name="Width">87</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item44" isnull="true" iskey="true">
+      <property name="Name">gridColumn44</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item45" isnull="true" iskey="true">
+      <property name="Name">gridColumn45</property>
+      <property name="Width">87</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item46" isnull="true" iskey="true">
+      <property name="Name">gridColumn46</property>
+      <property name="Width">61</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item47" isnull="true" iskey="true">
+      <property name="Name">gridColumn47</property>
+      <property name="Width">64</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item48" isnull="true" iskey="true">
+      <property name="Name">gridColumn48</property>
+      <property name="Width">66</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item49" isnull="true" iskey="true">
+      <property name="Name">gridColumn49</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item50" isnull="true" iskey="true">
+      <property name="Name">gridColumn50</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item51" isnull="true" iskey="true">
+      <property name="Name">gridColumn51</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item52" isnull="true" iskey="true">
+      <property name="Name">gridColumn52</property>
+      <property name="Width">61</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item53" isnull="true" iskey="true">
+      <property name="Name">gridColumn53</property>
+      <property name="Width">70</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item54" isnull="true" iskey="true">
+      <property name="Name">gridColumn54</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item55" isnull="true" iskey="true">
+      <property name="Name">gridColumn55</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item56" isnull="true" iskey="true">
+      <property name="Name">gridColumn56</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item57" isnull="true" iskey="true">
+      <property name="Name">gridColumn57</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item58" isnull="true" iskey="true">
+      <property name="Name">gridColumn58</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item59" isnull="true" iskey="true">
+      <property name="Name">gridColumn59</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item60" isnull="true" iskey="true">
+      <property name="Name">gridColumn60</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item61" isnull="true" iskey="true">
+      <property name="Name">gridColumn61</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item62" isnull="true" iskey="true">
+      <property name="Name">gridColumn62</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item63" isnull="true" iskey="true">
+      <property name="Name">gridColumn63</property>
+      <property name="Width">88</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item64" isnull="true" iskey="true">
+      <property name="Name">gridColumn64</property>
+      <property name="Width">88</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item65" isnull="true" iskey="true">
+      <property name="Name">gridColumn65</property>
+      <property name="Width">96</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item66" isnull="true" iskey="true">
+      <property name="Name">gridColumn66</property>
+      <property name="Width">98</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item67" isnull="true" iskey="true">
+      <property name="Name">gridColumn67</property>
+      <property name="Width">96</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item68" isnull="true" iskey="true">
+      <property name="Name">gridColumn68</property>
+      <property name="Width">106</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item69" isnull="true" iskey="true">
+      <property name="Name">gridColumn69</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item70" isnull="true" iskey="true">
+      <property name="Name">gridColumn70</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item71" isnull="true" iskey="true">
+      <property name="Name">gridColumn71</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item72" isnull="true" iskey="true">
+      <property name="Name">gridColumn72</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item73" isnull="true" iskey="true">
+      <property name="Name">gridColumn73</property>
+      <property name="Width">87</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item74" isnull="true" iskey="true">
+      <property name="Name">gridColumn74</property>
+      <property name="Width">87</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item75" isnull="true" iskey="true">
+      <property name="Name">gridColumn75</property>
+      <property name="Width">82</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item76" isnull="true" iskey="true">
+      <property name="Name">gridColumn76</property>
+      <property name="Width">117</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item77" isnull="true" iskey="true">
+      <property name="Name">gridColumn77</property>
+      <property name="Width">112</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item78" isnull="true" iskey="true">
+      <property name="Name">gridColumn78</property>
+      <property name="Width">84</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item79" isnull="true" iskey="true">
+      <property name="Name">gridColumn79</property>
+      <property name="Width">79</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item80" isnull="true" iskey="true">
+      <property name="Name">gridColumn80</property>
+      <property name="Width">79</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item81" isnull="true" iskey="true">
+      <property name="Name">gridColumn81</property>
+      <property name="Width">74</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item82" isnull="true" iskey="true">
+      <property name="Name">gridColumn82</property>
+      <property name="Width">117</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item83" isnull="true" iskey="true">
+      <property name="Name">gridColumn83</property>
+      <property name="Width">112</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item84" isnull="true" iskey="true">
+      <property name="Name">gridColumn84</property>
+      <property name="Width">117</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item85" isnull="true" iskey="true">
+      <property name="Name">gridColumn85</property>
+      <property name="Width">112</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item86" isnull="true" iskey="true">
+      <property name="Name">gridColumn86</property>
+      <property name="Width">119</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item87" isnull="true" iskey="true">
+      <property name="Name">gridColumn87</property>
+      <property name="Width">114</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item88" isnull="true" iskey="true">
+      <property name="Name">gridColumn88</property>
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">47</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item89" isnull="true" iskey="true">
+      <property name="Name">gridColumn89</property>
+      <property name="Width">64</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item90" isnull="true" iskey="true">
+      <property name="Name">gridColumn90</property>
+      <property name="Width">65</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item91" isnull="true" iskey="true">
+      <property name="Name">gridColumn91</property>
+      <property name="Width">110</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item92" isnull="true" iskey="true">
+      <property name="Name">gridColumn92</property>
+      <property name="Width">55</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item93" isnull="true" iskey="true">
+      <property name="Name">gridColumn93</property>
+      <property name="Width">108</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item94" isnull="true" iskey="true">
+      <property name="Name">gridColumn94</property>
+      <property name="Width">54</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item95" isnull="true" iskey="true">
+      <property name="Name">gridColumn95</property>
+      <property name="Width">53</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item96" isnull="true" iskey="true">
+      <property name="Name">gridColumn96</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">107</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item97" isnull="true" iskey="true">
+      <property name="Name">gridColumn97</property>
+      <property name="Width">69</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item98" isnull="true" iskey="true">
+      <property name="Name">gridColumn98</property>
+      <property name="Width">91</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item99" isnull="true" iskey="true">
+      <property name="Name">gridColumn99</property>
+      <property name="Width">94</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item100" isnull="true" iskey="true">
+      <property name="Name">gridColumn100</property>
+      <property name="Width">137</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item101" isnull="true" iskey="true">
+      <property name="Name">gridColumn101</property>
+      <property name="Width">100</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item102" isnull="true" iskey="true">
+      <property name="Name">gridColumn102</property>
+      <property name="Width">104</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item103" isnull="true" iskey="true">
+      <property name="Name">gridColumn103</property>
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="Width">117</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item104" isnull="true" iskey="true">
+      <property name="Name">gridColumn104</property>
+      <property name="Width">103</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item105" isnull="true" iskey="true">
+      <property name="Name">gridColumn105</property>
+      <property name="Width">123</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item106" isnull="true" iskey="true">
+      <property name="Name">gridColumn106</property>
+      <property name="Width">88</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item107" isnull="true" iskey="true">
+      <property name="Name">gridColumn107</property>
+      <property name="Width">92</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item108" isnull="true" iskey="true">
+      <property name="Name">gridColumn108</property>
+      <property name="Width">117</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item109" isnull="true" iskey="true">
+      <property name="Name">gridColumn109</property>
+      <property name="Width">139</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item110" isnull="true" iskey="true">
+      <property name="Name">gridColumn110</property>
+      <property name="Width">84</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item111" isnull="true" iskey="true">
+      <property name="Name">gridColumn184</property>
+      <property name="Width">92</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item112" isnull="true" iskey="true">
+      <property name="Name">gridColumn111</property>
+      <property name="Width">118</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item113" isnull="true" iskey="true">
+      <property name="Name">gridColumn112</property>
+      <property name="Width">136</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item114" isnull="true" iskey="true">
+      <property name="Name">gridColumn113</property>
+      <property name="VisibleIndex">14</property>
+      <property name="Visible">true</property>
+      <property name="Width">56</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item115" isnull="true" iskey="true">
+      <property name="Name">gridColumn114</property>
+      <property name="Width">67</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item116" isnull="true" iskey="true">
+      <property name="Name">gridColumn115</property>
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="Width">93</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item117" isnull="true" iskey="true">
+      <property name="Name">gridColumn116</property>
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="Width">72</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item118" isnull="true" iskey="true">
+      <property name="Name">gridColumn117</property>
+      <property name="Width">79</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item119" isnull="true" iskey="true">
+      <property name="Name">gridColumn118</property>
+      <property name="VisibleIndex">13</property>
+      <property name="Visible">true</property>
+      <property name="Width">73</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item120" isnull="true" iskey="true">
+      <property name="Name">gridColumn119</property>
+      <property name="Width">124</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item121" isnull="true" iskey="true">
+      <property name="Name">gridColumn120</property>
+      <property name="Width">54</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item122" isnull="true" iskey="true">
+      <property name="Name">gridColumn121</property>
+      <property name="Width">129</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item123" isnull="true" iskey="true">
+      <property name="Name">gridColumn122</property>
+      <property name="Width">60</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item124" isnull="true" iskey="true">
+      <property name="Name">gridColumn123</property>
+      <property name="Width">107</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item125" isnull="true" iskey="true">
+      <property name="Name">gridColumn124</property>
+      <property name="Width">71</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item126" isnull="true" iskey="true">
+      <property name="Name">gridColumn125</property>
+      <property name="Width">54</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item127" isnull="true" iskey="true">
+      <property name="Name">gridColumn126</property>
+      <property name="Width">85</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item128" isnull="true" iskey="true">
+      <property name="Name">gridColumn127</property>
+      <property name="Width">113</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item129" isnull="true" iskey="true">
+      <property name="Name">gridColumn128</property>
+      <property name="Width">121</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item130" isnull="true" iskey="true">
+      <property name="Name">gridColumn129</property>
+      <property name="Width">119</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item131" isnull="true" iskey="true">
+      <property name="Name">gridColumn130</property>
+      <property name="Width">120</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item132" isnull="true" iskey="true">
+      <property name="Name">gridColumn131</property>
+      <property name="Width">128</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item133" isnull="true" iskey="true">
+      <property name="Name">gridColumn132</property>
+      <property name="Width">126</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item134" isnull="true" iskey="true">
+      <property name="Name">gridColumn133</property>
+      <property name="Width">120</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item135" isnull="true" iskey="true">
+      <property name="Name">gridColumn134</property>
+      <property name="Width">128</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item136" isnull="true" iskey="true">
+      <property name="Name">gridColumn135</property>
+      <property name="Width">126</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item137" isnull="true" iskey="true">
+      <property name="Name">gridColumn136</property>
+      <property name="Width">66</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item138" isnull="true" iskey="true">
+      <property name="Name">gridColumn137</property>
+      <property name="Width">77</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item139" isnull="true" iskey="true">
+      <property name="Name">gridColumn138</property>
+      <property name="Width">154</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item140" isnull="true" iskey="true">
+      <property name="Name">gridColumn139</property>
+      <property name="Width">146</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item141" isnull="true" iskey="true">
+      <property name="Name">gridColumn140</property>
+      <property name="Width">142</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item142" isnull="true" iskey="true">
+      <property name="Name">gridColumn141</property>
+      <property name="Width">134</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item143" isnull="true" iskey="true">
+      <property name="Name">gridColumn142</property>
+      <property name="Width">162</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item144" isnull="true" iskey="true">
+      <property name="Name">gridColumn143</property>
+      <property name="Width">150</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item145" isnull="true" iskey="true">
+      <property name="Name">gridColumn144</property>
+      <property name="Width">182</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item146" isnull="true" iskey="true">
+      <property name="Name">gridColumn145</property>
+      <property name="Width">170</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item147" isnull="true" iskey="true">
+      <property name="Name">gridColumn146</property>
+      <property name="Width">189</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item148" isnull="true" iskey="true">
+      <property name="Name">gridColumn147</property>
+      <property name="Width">177</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item149" isnull="true" iskey="true">
+      <property name="Name">gridColumn148</property>
+      <property name="Width">195</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item150" isnull="true" iskey="true">
+      <property name="Name">gridColumn149</property>
+      <property name="Width">187</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item151" isnull="true" iskey="true">
+      <property name="Name">gridColumn150</property>
+      <property name="Width">183</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item152" isnull="true" iskey="true">
+      <property name="Name">gridColumn151</property>
+      <property name="Width">175</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item153" isnull="true" iskey="true">
+      <property name="Name">gridColumn152</property>
+      <property name="Width">164</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item154" isnull="true" iskey="true">
+      <property name="Name">gridColumn153</property>
+      <property name="Width">155</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item155" isnull="true" iskey="true">
+      <property name="Name">gridColumn154</property>
+      <property name="Width">170</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item156" isnull="true" iskey="true">
+      <property name="Name">gridColumn155</property>
+      <property name="Width">162</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item157" isnull="true" iskey="true">
+      <property name="Name">gridColumn156</property>
+      <property name="Width">158</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item158" isnull="true" iskey="true">
+      <property name="Name">gridColumn157</property>
+      <property name="Width">150</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item159" isnull="true" iskey="true">
+      <property name="Name">gridColumn158</property>
+      <property name="Width">191</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item160" isnull="true" iskey="true">
+      <property name="Name">gridColumn159</property>
+      <property name="Width">179</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item161" isnull="true" iskey="true">
+      <property name="Name">gridColumn160</property>
+      <property name="Width">195</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item162" isnull="true" iskey="true">
+      <property name="Name">gridColumn161</property>
+      <property name="Width">183</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item163" isnull="true" iskey="true">
+      <property name="Name">gridColumn162</property>
+      <property name="Width">166</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item164" isnull="true" iskey="true">
+      <property name="Name">gridColumn163</property>
+      <property name="Width">158</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item165" isnull="true" iskey="true">
+      <property name="Name">gridColumn164</property>
+      <property name="Width">154</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item166" isnull="true" iskey="true">
+      <property name="Name">gridColumn165</property>
+      <property name="Width">146</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item167" isnull="true" iskey="true">
+      <property name="Name">gridColumn166</property>
+      <property name="Width">167</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item168" isnull="true" iskey="true">
+      <property name="Name">gridColumn167</property>
+      <property name="Width">155</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item169" isnull="true" iskey="true">
+      <property name="Name">gridColumn168</property>
+      <property name="Width">216</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item170" isnull="true" iskey="true">
+      <property name="Name">gridColumn169</property>
+      <property name="Width">204</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item171" isnull="true" iskey="true">
+      <property name="Name">gridColumn170</property>
+      <property name="Width">219</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item172" isnull="true" iskey="true">
+      <property name="Name">gridColumn171</property>
+      <property name="Width">211</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item173" isnull="true" iskey="true">
+      <property name="Name">gridColumn172</property>
+      <property name="Width">207</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item174" isnull="true" iskey="true">
+      <property name="Name">gridColumn173</property>
+      <property name="Width">199</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item175" isnull="true" iskey="true">
+      <property name="Name">gridColumn174</property>
+      <property name="Width">113</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item176" isnull="true" iskey="true">
+      <property name="Name">gridColumn175</property>
+      <property name="Width">184</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item177" isnull="true" iskey="true">
+      <property name="Name">gridColumn176</property>
+      <property name="Width">172</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item178" isnull="true" iskey="true">
+      <property name="Name">gridColumn177</property>
+      <property name="Width">154</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item179" isnull="true" iskey="true">
+      <property name="Name">gridColumn178</property>
+      <property name="Width">142</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item180" isnull="true" iskey="true">
+      <property name="Name">gridColumn179</property>
+      <property name="Width">127</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item181" isnull="true" iskey="true">
+      <property name="Name">gridColumn180</property>
+      <property name="Width">115</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item182" isnull="true" iskey="true">
+      <property name="Name">gridColumn181</property>
+      <property name="Width">151</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item183" isnull="true" iskey="true">
+      <property name="Name">gridColumn182</property>
+      <property name="Width">139</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item184" isnull="true" iskey="true">
+      <property name="Name">gridColumn183</property>
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="Width">96</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+  </property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="ActiveFilterString" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

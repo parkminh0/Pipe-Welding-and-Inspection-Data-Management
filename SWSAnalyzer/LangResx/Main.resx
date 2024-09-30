@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDelete" xml:space="preserve">
+    <value>삭    제</value>
+  </data>
+  <data name="btnModify" xml:space="preserve">
+    <value>수    정</value>
+  </data>
+  <data name="btnNew" xml:space="preserve">
+    <value>신    규</value>
+  </data>
+  <data name="btn_viewall" xml:space="preserve">
+    <value>전체보기</value>
+  </data>
+  <data name="btn_viewsummary" xml:space="preserve">
+    <value>간략보기</value>
+  </data>
+  <data name="count_BeadDetail" xml:space="preserve">
+    <value>≡ 상세 정보 - {0:n0}</value>
+  </data>
+  <data name="count_BeadMaster" xml:space="preserve">
+    <value>≡ 검수데이터 목록 - {0:n0}</value>
+  </data>
+  <data name="count_BeadWeld" xml:space="preserve">
+    <value>≡ 검수+융착 데이터 목록 - {0:n0}</value>
+  </data>
+  <data name="count_Comp" xml:space="preserve">
+    <value>≡ 회사 목록 - {0:n0}</value>
+  </data>
+  <data name="count_General" xml:space="preserve">
+    <value>≡ 검수 데이터 - {0:n0}</value>
+  </data>
+  <data name="count_Project" xml:space="preserve">
+    <value>≡ {0} 프로젝트 목록 - {1:n0}</value>
+  </data>
+  <data name="count_User" xml:space="preserve">
+    <value>≡ {0} 사용자 목록 - {1:n0}</value>
+  </data>
+  <data name="count_WeldMaster" xml:space="preserve">
+    <value>≡ 융착데이터 목록 - {0:n0}</value>
+  </data>
+  <data name="excel_BeadDetail" xml:space="preserve">
+    <value>검수상세정보</value>
+  </data>
+  <data name="excel_BeadMaster" xml:space="preserve">
+    <value>검수데이터목록</value>
+  </data>
+  <data name="excel_BeadWeld" xml:space="preserve">
+    <value>검수+융착 데이터 목록</value>
+  </data>
+  <data name="excel_PopBeadMaster" xml:space="preserve">
+    <value>검수마스터_{0}</value>
+  </data>
+  <data name="excel_PopWeldMaster" xml:space="preserve">
+    <value>융착마스터_{0}</value>
+  </data>
+  <data name="excel_ProjRealation" xml:space="preserve">
+    <value>프로젝트 조직도</value>
+  </data>
+  <data name="excel_WeldMaster" xml:space="preserve">
+    <value>융착데이터목록</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>맑은 고딕</value>
+  </data>
+  <data name="img_Dashboard2" xml:space="preserve">
+    <value>Properties.Resources.Dashboard2KR</value>
+  </data>
+  <data name="msg_AdminNull" xml:space="preserve">
+    <value>상위 Admin을 선택해 주세요.</value>
+  </data>
+  <data name="msg_AuthExist1" xml:space="preserve">
+    <value>[{0}] 내 [Admin] 권한이 이미 존재합니다.</value>
+  </data>
+  <data name="msg_AuthExist2" xml:space="preserve">
+    <value>[{0}] 내 [{1}] 권한이 이미 존재합니다.</value>
+  </data>
+  <data name="msg_AuthLevelNull" xml:space="preserve">
+    <value>권한등급을 선택해 주세요.</value>
+  </data>
+  <data name="msg_BeadSearchAll" xml:space="preserve">
+    <value>전체기간을 검색하는 경우는 SerialNo 또는 Material 조건값이 하나라도 있어야 합니다.</value>
+  </data>
+  <data name="msg_BeadWeldSearchAll" xml:space="preserve">
+    <value>전체기간을 검색하는 경우 Machine SerialNo, Material, Serial 조건값이 하나라도 있어야 합니다.</value>
+  </data>
+  <data name="msg_ChangeError" xml:space="preserve">
+    <value>오류가 발생하여 암호를 변경하지 못했습니다.</value>
+  </data>
+  <data name="msg_ChangePW" xml:space="preserve">
+    <value>암호가 정상적으로 변경되었습니다.</value>
+  </data>
+  <data name="msg_ChangePWError" xml:space="preserve">
+    <value>변경할 암호와 암호확인 암호가 다릅니다.
+다시 입력해 주세요.</value>
+  </data>
+  <data name="msg_ChangePWNull" xml:space="preserve">
+    <value>변경할 암호를 입력해 주세요.</value>
+  </data>
+  <data name="msg_ChangeSkin" xml:space="preserve">
+    <value>스킨 변경시 프로그램 재시작이 필요합니다.
+재시작하시겠습니까?</value>
+  </data>
+  <data name="msg_CompanyNull" xml:space="preserve">
+    <value>회사를 선택해 주세요.</value>
+  </data>
+  <data name="msg_CompExist" xml:space="preserve">
+    <value>이미 존재하는 업체명입니다.</value>
+  </data>
+  <data name="msg_CompNull" xml:space="preserve">
+    <value>회사명을 입력해 주세요.</value>
+  </data>
+  <data name="msg_CRUDError" xml:space="preserve">
+    <value>저장 실패</value>
+  </data>
+  <data name="msg_Del" xml:space="preserve">
+    <value>정말 삭제하시겠습니까?</value>
+  </data>
+  <data name="msg_EmptyPW" xml:space="preserve">
+    <value>암호를 입력해 주세요.</value>
+  </data>
+  <data name="msg_ExcelError" xml:space="preserve">
+    <value>엑셀파일을 닫으신 후에 다시 시도해 주세요.</value>
+  </data>
+  <data name="msg_ExpireNull" xml:space="preserve">
+    <value>만료일자를 입력해 주세요.</value>
+  </data>
+  <data name="msg_FirstLogin" xml:space="preserve">
+    <value>첫 로그인 시 비밀번호 변경이 필요합니다.
+비밀번호 변경 후 이용해주세요.</value>
+  </data>
+  <data name="msg_IDError" xml:space="preserve">
+    <value>존재하지 않는 UserID입니다.
+올바른 ID를 입력해 주세요.</value>
+  </data>
+  <data name="msg_LoginError1" xml:space="preserve">
+    <value>서버에 접속할 수 없습니다.</value>
+  </data>
+  <data name="msg_LoginError2" xml:space="preserve">
+    <value>DB Connection에 문제가 있습니다.</value>
+  </data>
+  <data name="msg_ManagerNull" xml:space="preserve">
+    <value>상위 Manager를 선택해 주세요.</value>
+  </data>
+  <data name="msg_MasterDel1" xml:space="preserve">
+    <value>선택하신 {0}건의 데이터를 삭제하시겠습니까?
+삭제하시면 하위 상세데이터까지 모두 삭제됩니다(복구불가)</value>
+  </data>
+  <data name="msg_MasterDel2" xml:space="preserve">
+    <value>데이터를 삭제하는 중입니다.  잠시 기다려주세요….</value>
+  </data>
+  <data name="msg_MasterDel3" xml:space="preserve">
+    <value>성공적으로 삭제되었습니다.</value>
+  </data>
+  <data name="msg_MasterDelError" xml:space="preserve">
+    <value>삭제시 오류가 발생했습니다. 재조회하여 삭제여부를 확인해 주세요.</value>
+  </data>
+  <data name="msg_MasterTransfer1" xml:space="preserve">
+    <value>선택하신 [{0}]의 융착데이터({1})를 [{2}]의 [{3}]로 관리권한을 변경하시겠습니까?</value>
+  </data>
+  <data name="msg_MasterTransfer2" xml:space="preserve">
+    <value>데이터를 변경하는 중입니다.  잠시 기다려 주세요...</value>
+  </data>
+  <data name="msg_MasterTransfer3" xml:space="preserve">
+    <value>성공적으로 변경되었습니다.</value>
+  </data>
+  <data name="msg_MasterTransferError" xml:space="preserve">
+    <value>변경시 오류가 발생했습니다. 재조회하여 변경여부를 확인해 주세요.</value>
+  </data>
+  <data name="msg_NowPWError" xml:space="preserve">
+    <value>현재 암호가 다릅니다.
+
+정확한 암호를 다시 입력해 주세요.</value>
+  </data>
+  <data name="msg_NowPWNull" xml:space="preserve">
+    <value>현재 암호를 입력해 주세요.</value>
+  </data>
+  <data name="msg_PopDataEmpty" xml:space="preserve">
+    <value>조회할 데이터가 없습니다.
+
+확인 후 다시 실행해 주세요.</value>
+  </data>
+  <data name="msg_ProjectNull" xml:space="preserve">
+    <value>프로젝트를 선택해 주세요.</value>
+  </data>
+  <data name="msg_ProjExist" xml:space="preserve">
+    <value>이미 존재하는 프로젝트명입니다.</value>
+  </data>
+  <data name="msg_ProjNull" xml:space="preserve">
+    <value>프로젝트명을 입력해 주세요.</value>
+  </data>
+  <data name="msg_PWError" xml:space="preserve">
+    <value>암호가 다릅니다.
+
+정확한 암호를 다시 입력해 주세요.</value>
+  </data>
+  <data name="msg_title_AdminNull" xml:space="preserve">
+    <value>상위 Admin</value>
+  </data>
+  <data name="msg_title_AuthExist" xml:space="preserve">
+    <value>권한 존재</value>
+  </data>
+  <data name="msg_title_AuthLevelNull" xml:space="preserve">
+    <value>권한등급</value>
+  </data>
+  <data name="msg_title_ChangePWError" xml:space="preserve">
+    <value>암호확인</value>
+  </data>
+  <data name="msg_title_ChangePWNull" xml:space="preserve">
+    <value>변경암호</value>
+  </data>
+  <data name="msg_title_CompanyNull" xml:space="preserve">
+    <value>회사</value>
+  </data>
+  <data name="msg_title_CompNull" xml:space="preserve">
+    <value>회사명</value>
+  </data>
+  <data name="msg_title_Del" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="msg_title_Exist" xml:space="preserve">
+    <value>중복</value>
+  </data>
+  <data name="msg_title_ExpireNull" xml:space="preserve">
+    <value>만료일자</value>
+  </data>
+  <data name="msg_title_ManagerNull" xml:space="preserve">
+    <value>상위 Manager</value>
+  </data>
+  <data name="msg_title_MasterTransfer" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="msg_title_NowPWNull" xml:space="preserve">
+    <value>현재암호</value>
+  </data>
+  <data name="msg_title_PopDataEmpty" xml:space="preserve">
+    <value>데이터 없음</value>
+  </data>
+  <data name="msg_title_ProjectNull" xml:space="preserve">
+    <value>프로젝트</value>
+  </data>
+  <data name="msg_title_ProjNull" xml:space="preserve">
+    <value>프로젝트명</value>
+  </data>
+  <data name="msg_title_SearchAll" xml:space="preserve">
+    <value>조건필요</value>
+  </data>
+  <data name="msg_title_UserIDNull" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="msg_UserDelError" xml:space="preserve">
+    <value>하위 계정이 존재합니다.
+하위 계정 삭제 후 다시 시도해주세요.</value>
+  </data>
+  <data name="msg_UserIDNull" xml:space="preserve">
+    <value>User ID를 입력해 주세요.</value>
+  </data>
+  <data name="msg_UserNameNull" xml:space="preserve">
+    <value>사용자명을 입력해 주세요.</value>
+  </data>
+  <data name="msg_UserPWNull" xml:space="preserve">
+    <value>사용자 암호를 입력해 주세요.</value>
+  </data>
+  <data name="msg_WeldSearchAll" xml:space="preserve">
+    <value>전체기간을 검색하는 경우 Machine SerialNo, Material, Diameter 조건값이 하나라도 있어야 합니다.</value>
+  </data>
+  <data name="title_CompDel" xml:space="preserve">
+    <value>회사 삭제</value>
+  </data>
+  <data name="title_CompMod" xml:space="preserve">
+    <value>회사 수정</value>
+  </data>
+  <data name="title_CompNew" xml:space="preserve">
+    <value>회사 신규</value>
+  </data>
+  <data name="title_ProjDel" xml:space="preserve">
+    <value>프로젝트 삭제</value>
+  </data>
+  <data name="title_ProjMod" xml:space="preserve">
+    <value>프로젝트 수정</value>
+  </data>
+  <data name="title_ProjNew" xml:space="preserve">
+    <value>프로젝트 신규</value>
+  </data>
+  <data name="title_UserDel" xml:space="preserve">
+    <value>사용자 삭제</value>
+  </data>
+  <data name="title_UserMod" xml:space="preserve">
+    <value>사용자 수정</value>
+  </data>
+  <data name="title_UserNew" xml:space="preserve">
+    <value>사용자 신규</value>
+  </data>
+</root>
